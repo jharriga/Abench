@@ -1,0 +1,36 @@
+[jharriga@jharriga AutoBench2.0]$ cat workloads.json 
+{
+    "curtime": "2022-01-25T10:03:35.655297Z",
+    "test_config": {
+        "workload": "matrix-tblook-4M.exe",
+        "num_ctx": "4",
+        "num_iters": "50"
+    },
+    "test_results": {
+        "1": {
+            "RUN": "1",
+            "time(secs)": 0.202,
+            "secs/workload": 0.00404,
+            "workloads/sec": 247.525
+        },
+        "2": {
+            "RUN": "2",
+            "time(secs)": 0.209,
+            "secs/workload": 0.00418,
+            "workloads/sec": 239.234
+        },
+        "3": {
+            "RUN": "3",
+            "time(secs)": 0.208,
+            "secs/workload": 0.00416,
+            "workloads/sec": 240.385
+        }
+    },
+    "system_config": {
+        "kernel": "3.10.0-1160.49.1.el7.x86_64",
+        "distro": "Red Hat Enterprise Linux",
+        "model": "Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz",
+        "numcores": "8",
+        "maxmhz": "4200.0000"
+    }
+}
