@@ -1,4 +1,12 @@
-
+########
+# Generates csv separated results
+# USAGE: $ perl csv_summary <results_dir>/*.log > HOLD.csv
+# 
+# Parse with AWK examples
+# $ cat HOLD.csv | awk -F "," '{print $1}'  <-- print Workload Name
+# $ cat HOLD.csv | awk -F "," '{print $2}'  <-- print MulticoreCore
+# $ cat HOLD.csv | awk -F "," '{print $3}'  <-- print Singlecore
+#
 use strict;
 use warnings;
 
